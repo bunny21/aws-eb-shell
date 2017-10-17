@@ -37,7 +37,7 @@ AWS=`which aws`
 [ -x "${AWS}" ] || (echo "Please install awscli";exit 1;)
 
 if [ $# -lt 1 ];then
-        echo "Usage: $0 path/to/conf_file.conf [template_name]"
+        echo "Usage: $0 /root/aws-eb-shell/aws-mujjuEB-shell/FristEBExample.conf 20171018"
 	echo "The file path/to/conf_template_[template_name].json must contain the proper conf definition"
         exit 1
 fi
