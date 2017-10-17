@@ -12,7 +12,7 @@ AWS=`which aws`
 [ -x "${AWS}" ] || (echo "Please install awscli";exit 1;)
 
 usage () {
-        echo "Usage: $0 /root/aws-eb-shell/aws-mujjuEB-shell/FristEBExample.conf [environment|--] [configuration|--] sample.zip"
+        echo "Usage: $0 /root/aws-eb-shell/aws-mujjuEB-shell/FristEBExample.conf SampleEBAppScriptAutomated01-env 20171018 sample.zip"
 }
 if [ $# -lt 1 ];then
 	usage
