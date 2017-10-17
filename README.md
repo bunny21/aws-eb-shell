@@ -72,7 +72,7 @@ The private subnet will host the EC2 instances. Those instances _will_ need to a
 ## The .conf file
 
 Create one configuration file, using the example.conf file provided, for each ElasticBeanstalk deployment.
-
+ 
 ## The .json file
 
 The .json file describes the "Saved Configuration" of your EB application. It is a template that will be filled by the `create_conf.sh` script. As you can have multiple "Saved Configuration" within a single application, you can create as many .json file as you want following the pattern `conf_template_WHATEVERYOUWANT.json`

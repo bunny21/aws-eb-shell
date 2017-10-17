@@ -12,7 +12,7 @@ AWS=`which aws`
 [ -x "${AWS}" ] || (echo "Please install awscli";exit 1;)
 
 if [ $# -lt 1 ];then
-        echo "Usage: $0 path/to/conf_file.conf [app_file]"
+        echo "Usage: $0 /root/aws-eb-shell/aws-mujjuEB-shell/FristEBExample.conf [sample.zip]"
         exit 1
 fi
 
