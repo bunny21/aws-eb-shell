@@ -42,7 +42,7 @@ if [ $# -lt 1 ];then
         exit 1
 fi
 
-EB_INST_TYPE="m1.small"
+EB_INST_TYPE="t2.micro"
 EB_MIN_INST=2
 EB_INST_SIZE=10
 
