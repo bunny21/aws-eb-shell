@@ -154,11 +154,6 @@
                     "Namespace": "aws:cloudformation:template:parameter", 
                     "Value": "PARAM3=,PARAM4=,PARAM1=,PARAM2=,JDBC_CONNECTION_STRING=,PARAM5=,AWS_SECRET_KEY=,AWS_ACCESS_KEY_ID="
                 }, 
-                #{
-                  #  "OptionName": "HooksPkgUrl", 
-                   # "Namespace": "aws:cloudformation:template:parameter", 
-                    #"Value": "https:##//s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_tomcat_3.11.1/lib/hooks.tar.gz"
-                #}, 
                 {
                     "OptionName": "InstancePort", 
                     "Namespace": "aws:cloudformation:template:parameter", 
