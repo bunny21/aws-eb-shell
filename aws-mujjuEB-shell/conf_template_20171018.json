@@ -37,7 +37,6 @@
                 {
                     "OptionName": "IamInstanceProfile", 
                     "Namespace": "aws:autoscaling:launchconfiguration", 
-                    "Value": "_INST_ROLE_"
                 }, 
                 {
                     "OptionName": "InstanceType", 
