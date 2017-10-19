@@ -315,7 +315,7 @@
                 {
                     "OptionName": "ListenerEnabled", 
                     "Namespace": "aws:elb:listener:443", 
-                    "Value": "False"
+                    "Value": "false"
                 }, 
                 {
                     "OptionName": "ListenerProtocol", 
